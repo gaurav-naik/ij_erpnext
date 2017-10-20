@@ -120,3 +120,16 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "ij_erpnext.event.get_events"
 # }
 
+fixtures = [
+	{
+		"dt": "Custom Field", 
+		"filters":[
+			[
+				"name","in", [
+					"Sales Invoice-section_break_25", 
+					"Sales Invoice-approved_by"
+				]
+			]
+		] 
+	}
+]
