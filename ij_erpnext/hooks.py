@@ -127,9 +127,11 @@ fixtures = [
 			[
 				"name","in", [
 					"Sales Invoice-section_break_25", 
-					"Sales Invoice-approved_by"
+					"Sales Invoice-approved_by",
+					"Purchase Invoice-sb_approved",
+					"Purchase Invoice-approved_by"
 				]
 			]
-		] 
+		]
 	}
 ]
